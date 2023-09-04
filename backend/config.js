@@ -1,4 +1,6 @@
 export const PORT = 500;
 
-// MONGO DB PASSWORD: MWYLvChS2KhJevHT
-export const mongoDBURL = ${{ secrets.MY_GITHUB_TOKEN }}
+
+export const mongoDBURL = ${{ secrets.MONGODBURL }}
+
+'mongodb+srv://bhogalabhishek03:<useYourOwnMONGOPASSWROD>@book-store-mern.tpxkyot.mongodb.net/?retryWrites=true&w=majority'
